@@ -4,7 +4,7 @@ Este repositorio contiene las prácticas y documentación asociada al curso de I
 
 ## Estructura
 
-- **/ingenieriaSoftwareI**: Contiene las prácticas y documentación del curso.
+- **/ingenieriaDeSoftwareI**: Contiene las prácticas y documentación del curso.
   - **/practicas**: Cada práctica tendrá su propia carpeta con la documentación, código y diagramas.
 
 ## Practica 1: Historia de Usuario
