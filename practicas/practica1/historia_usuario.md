@@ -1,8 +1,6 @@
 # Historia de Usuario
 
-**Como** usuario del sistema,  
-**quiero** poder actualizar la información de un usuario existente,  
-**para que** pueda agregar o modificar datos relevantes de los usuarios cuando sea necesario.
+**Como** usuario del sistema, **quiero** poder actualizar la información de un usuario existente, **para que** pueda agregar o modificar datos relevantes de los usuarios cuando sea necesario.
 
 ## Conversación
 
