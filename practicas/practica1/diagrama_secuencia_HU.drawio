@@ -594,21 +594,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T-wkSySq2pWiHFF5nl-6-10" value="Capa de negocio" style="shape=folder;fontStyle=1;tabWidth=190;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="30" y="-600" width="890" height="310" as="geometry" />
+          <mxGeometry x="30" y="-600" width="810" height="310" as="geometry" />
         </mxCell>
         <mxCell id="T-wkSySq2pWiHFF5nl-6-19" value="servicioUsuario" style="shape=folder;fontStyle=1;tabWidth=150;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="T-wkSySq2pWiHFF5nl-6-10" vertex="1">
-          <mxGeometry x="440" y="40" width="190" height="100" as="geometry" />
+          <mxGeometry x="440" y="40" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="T-wkSySq2pWiHFF5nl-6-20" value="&lt;div&gt;recuperaGrupo()&lt;/div&gt;&lt;div&gt;actualizarUsuario(usuario, nombreGrupo)&lt;/div&gt;" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" parent="T-wkSySq2pWiHFF5nl-6-19" vertex="1">
-          <mxGeometry width="190" height="70" relative="1" as="geometry">
+          <mxGeometry width="160" height="70" relative="1" as="geometry">
             <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T-wkSySq2pWiHFF5nl-6-21" value="servicioGrupo" style="shape=folder;fontStyle=1;tabWidth=150;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="T-wkSySq2pWiHFF5nl-6-10" vertex="1">
-          <mxGeometry x="670" y="40" width="190" height="60" as="geometry" />
+        <mxCell id="T-wkSySq2pWiHFF5nl-6-21" value="servicioGrupo" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="T-wkSySq2pWiHFF5nl-6-10" vertex="1">
+          <mxGeometry x="620" y="40" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T-wkSySq2pWiHFF5nl-6-22" value="&lt;div&gt;recuperaGrupos()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" parent="T-wkSySq2pWiHFF5nl-6-21" vertex="1">
-          <mxGeometry width="190" height="42" relative="1" as="geometry">
+          <mxGeometry width="160" height="42" relative="1" as="geometry">
             <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -622,7 +622,7 @@
           <mxGeometry x="220" y="80" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="T-wkSySq2pWiHFF5nl-6-23" value="Capa de datos" style="shape=folder;fontStyle=1;tabWidth=190;tabHeight=20;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="420" y="-240" width="450" height="170" as="geometry" />
+          <mxGeometry x="380" y="-240" width="450" height="170" as="geometry" />
         </mxCell>
         <mxCell id="T-wkSySq2pWiHFF5nl-6-24" value="grupoRepositorio" style="shape=folder;fontStyle=1;tabWidth=140;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="T-wkSySq2pWiHFF5nl-6-23" vertex="1">
           <mxGeometry x="20" y="50" width="180" height="100" as="geometry" />
@@ -647,13 +647,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SJP5pk11XmM4n8IROlnw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T-wkSySq2pWiHFF5nl-6-19" target="T-wkSySq2pWiHFF5nl-6-24">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="-325" />
+              <mxPoint x="530" y="-325" />
+              <mxPoint x="530" y="-190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SJP5pk11XmM4n8IROlnw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T-wkSySq2pWiHFF5nl-6-19" target="T-wkSySq2pWiHFF5nl-6-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="630" y="-260" />
-              <mxPoint x="740" y="-260" />
+              <mxPoint x="700" y="-260" />
             </Array>
           </mxGeometry>
         </mxCell>
