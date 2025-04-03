@@ -458,7 +458,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1748" dy="268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2540" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -518,9 +518,9 @@
         <mxCell id="OCwyP5HJ9zjT-_5HilzB-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="7baba1c4bc27f4b0-2" vertex="1">
           <mxGeometry x="75" y="80" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OCwyP5HJ9zjT-_5HilzB-19" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Verdana&quot;&gt;iniciar()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="7baba1c4bc27f4b0-2" target="OCwyP5HJ9zjT-_5HilzB-17" edge="1">
+        <mxCell id="OCwyP5HJ9zjT-_5HilzB-19" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Verdana&quot;&gt;iniciarListaUsuarios()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="7baba1c4bc27f4b0-2" target="OCwyP5HJ9zjT-_5HilzB-17" edge="1">
           <mxGeometry x="-0.5556" y="-10" width="80" relative="1" as="geometry">
-            <mxPoint x="130" y="85" as="sourcePoint" />
+            <mxPoint x="170" y="85" as="sourcePoint" />
             <mxPoint x="110" y="85.22999999999999" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
